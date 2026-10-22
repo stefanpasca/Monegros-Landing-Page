@@ -2,5 +2,82 @@
 *,
 ::before,
 ::after {
-    padding: 4px;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: var(--fuente-base-);
+}
+
+header {
+    background-color: var(--background-color-dark-);
+    padding: 1rem 2rem;
+}
+
+
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    padding: 1.5rem 1rem;
+    margin: 0 auto;
+}
+
+section {
+    padding: 3rem 1.5rem;
+}
+
+img {
+    margin-top: 2rem;
+}
+
+figcaption {
+    margin-top: 2rem;
+    padding: 0.5rem 0.75rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--color-secondary-);
+}
+
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--color-primary-);
+    font-size: 1.5rem;
+
+}
+
+.boton {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-highlighted-);
 }
