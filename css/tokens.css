@@ -1,8 +1,27 @@
 :root {
+    /*COLORES*/
     --background-color-dark-: #14122b;
     --background-color-cartel-: #4b2a7b;
     --color-highlighted-: #e0457b;
     --color-primary-: #ffd166;
     --background-color-primary-: #f1eefb;
     --color-secondary-: #ffffff;
+   
+    /*TIPOGRAFIA*/
+    --fuente-base: "Trebuchet MS", "Segoe UI", sans-serif;
+    --texto-base: 1rem;
+    --texto-h1:   1.5rem;
+    --texto-h2:   1.25rem;
+    --texto-logo: 1.25rem;
+
+   /*ESPACIOS*/
+    --espacio-unidad: 4px;
+    --espacio-1:  4px;   /* 1 × 4 */
+    --espacio-2:  8px;   /* 2 × 4 → margen del lema, padding vertical pie de foto */
+    --espacio-3:  12px;  /* 3 × 4 → padding vertical botón, horizontal pie de foto */
+    --espacio-4:  16px;  /* 4 × 4 → padding nav, contenedor, margen cartas */
+    --espacio-6:  24px;  /* 6 × 4 → padding nav/botón/sección/carta */
+    --espacio-8:  32px;  /* 8 × 4 → margen de la foto */
+    --espacio-12: 48px;  /* 12 × 4 → padding vertical de la sección */
+    
 }

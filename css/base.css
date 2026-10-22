@@ -1,5 +1,64 @@
 *,
 ::before,
 ::after {
-    padding: 4px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: var(--fuente-base);
+}
+main{
+margin: 0 auto;
+max-width: 1200px;
+
+}
+
+footer{
+    background-color: var(--background-color-dark-);
+    color: var(--color-secondary-);
+    padding: var(--espacio-4);
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+footer p{
+    padding: var(--espacio-2);
+}
+
+#info{
+    background-color: var(--color-secondary-);
+    border:2px solid var(--background-color-cartel-);
+    padding: var(--espacio-12) var(--espacio-6);
+    margin-bottom: var(--espacio-8);
+}
+#info h2{
+    color: var(--background-color-cartel-);
+    font-size: var(--texto-h2);
+    margin-bottom: var(--espacio-6);
+}
+.bloques{
+    display:flex;
+    flex-wrap: wrap;
+    gap: var(--espacio-4);
+    margin-bottom: var(--espacio-8);
+    
+}
+.bloque {
+  flex: 1 1 200px;
+  background-color: var(--background-color-primary-);
+  padding: var(--espacio-6);
+}
+.bloque h3 {
+  color: var(--color-highlighted-);
+  margin-bottom: var(--espacio-2);
+}
+
+.boton{
+    display: inline-block;
+    background-color: var(--color-highlighted-);
+    color: var(--color-secondary-);
+    text-decoration: none;
+    padding: var(--espacio-3) var(--espacio-6);
 }
