@@ -1,0 +1,3 @@
+@import url("tokens.css"); /* solo :root {…} */
+@import url("base.css"); /* reset, body, h1… */
+@import url("componentes.css"); /* .boton, .tarjeta… */
