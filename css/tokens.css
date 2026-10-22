@@ -16,12 +16,12 @@
 
    /*ESPACIOS*/
     --espacio-unidad: 4px;
-    --espacio-1:  4px;   /* 1 × 4 */
-    --espacio-2:  8px;   /* 2 × 4 → margen del lema, padding vertical pie de foto */
-    --espacio-3:  12px;  /* 3 × 4 → padding vertical botón, horizontal pie de foto */
-    --espacio-4:  16px;  /* 4 × 4 → padding nav, contenedor, margen cartas */
-    --espacio-6:  24px;  /* 6 × 4 → padding nav/botón/sección/carta */
-    --espacio-8:  32px;  /* 8 × 4 → margen de la foto */
-    --espacio-12: 48px;  /* 12 × 4 → padding vertical de la sección */
+    --espacio-1:  4px;   
+    --espacio-2:  8px;
+    --espacio-3:  12px;  
+    --espacio-4:  16px;  
+    --espacio-6:  24px;  
+    --espacio-8:  32px;  
+    --espacio-12: 48px;  
     
 }
